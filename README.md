@@ -87,7 +87,3 @@ Do this:
 2. Then run the notebook: `Kernel` → `Restart & Run All`.
 
 ---
-
-## 🔗 Submission
-- Task completed for AI & ML Internship.
-- GitHub Repository: [https://github.com/Amit905460/titanic-data-cleaning](https://github.com/Amit905460/titanic-data-cleaning)
