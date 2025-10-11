@@ -1,7 +1,5 @@
 # 🚢 Titanic Dataset - Data Cleaning & Preprocessing
 
-## 🧠 AI & ML Internship Task 1
-
 ### 📌 Objective:
 To clean and preprocess raw data to make it suitable for Machine Learning models.
 
@@ -87,3 +85,4 @@ Do this:
 2. Then run the notebook: `Kernel` → `Restart & Run All`.
 
 ---
+
