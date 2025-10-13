@@ -1,88 +1,120 @@
-# 🚢 Titanic Dataset - Data Cleaning & Preprocessing
+# 🚢 Titanic Dataset — Data Cleaning & Preprocessing
 
-### 📌 Objective:
-To clean and preprocess raw data to make it suitable for Machine Learning models.
-
----
-
-## 📁 Dataset
-- **Source:** [Kaggle Titanic Dataset](https://www.kaggle.com/datasets/yasserh/titanic-dataset)
-- **Files Used:** `titanic.csv`
+## 🎯 Project Objective
+To clean and preprocess the **Titanic dataset** for building accurate and efficient Machine Learning models.
 
 ---
 
-## 🛠 Tools & Libraries Used:
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Scikit-learn
+## 📂 Dataset Information
+- **Source:** [Kaggle - Titanic Dataset](https://www.kaggle.com/datasets/yasserh/titanic-dataset)  
+- **File Used:** `titanic.csv`
 
 ---
 
-## 🔍 Steps Performed:
-
-### 1. Data Loading & Exploration
-- Loaded the Titanic dataset using Pandas.
-- Explored dataset structure with `.info()`, `.describe()`, `.head()`.
-
-### 2. Handling Missing Values
-- Filled missing values in:
-  - `Age` using **mean**
-  - `Embarked` using **mode**
-  - Dropped `Cabin` due to too many missing values.
-
-### 3. Encoding Categorical Features
-- Used **Label Encoding** and **One-Hot Encoding** on `Sex`, `Embarked`, and `Pclass`.
-
-### 4. Feature Scaling
-- Applied **MinMaxScaler** to normalize numerical features like `Age`, `Fare`.
-
-### 5. Outlier Detection & Removal
-- Plotted **boxplots** for `Fare` and `Age`.
-- Detected and removed outliers based on visual inspection and IQR method.
+## 🧰 Technologies & Libraries
+- **Programming Language:** Python  
+- **Libraries:** Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
 
 ---
 
-## 📊 Visualizations:
-- Correlation Heatmap
-- Boxplots for outlier detection
-- Countplot for survival distribution
+## 🧭 Workflow Overview
+
+### 1️⃣ Data Loading & Initial Exploration
+- Imported the dataset using Pandas.  
+- Examined dataset structure using:
+  - `df.info()`
+  - `df.describe()`
+  - `df.head()`
+- Understood data types, missing values, and basic statistics.
 
 ---
 
-## 📌 Outcome:
-- Cleaned and preprocessed dataset is now ready for ML model training.
-- Understood key preprocessing techniques like handling nulls, encoding, normalization, and outlier removal.
+### 2️⃣ Handling Missing Values
+- Imputed missing values using appropriate methods:
+  - `Age` → Filled with **mean**  
+  - `Embarked` → Filled with **mode**  
+- Dropped `Cabin` column due to excessive missing data.
 
 ---
 
-## ▶️ How to Run
-1. Clone the repo:
-   ```
-   git clone https://github.com/Amit905460/titanic-data-cleaning
-   ```
-2. Open the notebook `Data Cleaning & Preprocessing.ipynb` in Jupyter Notebook or VS Code.
-3. Run all cells step by step.
+### 3️⃣ Encoding Categorical Variables
+- Converted categorical features into numerical format using:
+  - **Label Encoding** for `Sex`
+  - **One-Hot Encoding** for `Embarked` and `Pclass`
 
 ---
 
-## 🌐 View on NBViewer (Recommended)
-> 📌 **Note:** GitHub may not render all visual outputs (like HTML tables or plots) properly.
-> 👉 For full output display, open the notebook on NBViewer:
-
-🔗 [View Notebook on NBViewer](https://nbviewer.org/github/Amit905460/titanic-data-cleaning/blob/main/Data%20Cleaning%20%26%20Preprocessing.ipynb)
+### 4️⃣ Feature Scaling
+- Normalized continuous variables (`Age`, `Fare`) using **MinMaxScaler** to bring all features into a similar range.
 
 ---
 
-## 🛠 Trust Notebook in Jupyter (If needed)
-If you see the message:
+### 5️⃣ Outlier Detection & Treatment
+- Detected outliers using **boxplots** and **IQR (Interquartile Range)** method.  
+- Removed extreme outliers to improve model performance.
+
+---
+
+## 📊 Visual Explorations
+- 🔥 **Correlation Heatmap** — to study relationships between features  
+- 📦 **Boxplots** — for outlier detection  
+- 📈 **Countplots** — to visualize survival distribution across different variables
+
+---
+
+## ✅ Final Outcome
+- Cleaned, encoded, and scaled dataset ready for model training.  
+- Applied key preprocessing techniques:
+  - Handling missing data  
+  - Encoding categorical variables  
+  - Normalization  
+  - Outlier removal  
+- Built a strong foundation for future Machine Learning modeling.
+
+---
+
+
+## ▶️ How to Run the Project
+
+1. **Open the notebook:**
+   - **File:** `Data Cleaning & Preprocessing.ipynb`  
+   - **Environment:** Jupyter Notebook / VS Code  
+
+2. **Run all cells sequentially** to execute each preprocessing step.
+
+---
+
+## 🌐 View on NBViewer
+
+> 💡 **Note:** Some plots or HTML tables may not display correctly on GitHub.  
+> For a better viewing experience, open the notebook via NBViewer:
+
+🔗 [**Open Notebook on NBViewer**](https://nbviewer.org/github/Amit905460/titanic-data-cleaning/blob/main/Data%20Cleaning%20%26%20Preprocessing.ipynb)
+
+---
+
+## 🧩 Trusting the Notebook (If Prompted)
+
+If Jupyter shows a message like:  
 > “In a Jupyter environment, please rerun this cell to show the HTML representation or trust the notebook...”
 
-Do this:
-1. In Jupyter, click `File` → `Trust Notebook`, or click the blue bar saying “Not Trusted”.
-2. Then run the notebook: `Kernel` → `Restart & Run All`.
+Follow these steps:
+
+1. Go to **File → Trust Notebook**  
+2. Or click the blue **“Not Trusted”** bar  
+3. Then restart and run all cells: **Kernel → Restart & Run All**
 
 ---
 
+## 🏁 Summary
+
+This project demonstrates:
+
+- ✅ Practical **data preprocessing workflow**  
+- 🧹 Handling **real-world data issues**  
+- 🤖 Preparing a dataset for **machine learning** efficiently  
+
+---
+
+👨‍💻 **Developed by:** [Amit Kumar Singh Kurmi](https://github.com/Amit905460)  
+📅 **Project Type:** Data Preprocessing / Machine Learning  
