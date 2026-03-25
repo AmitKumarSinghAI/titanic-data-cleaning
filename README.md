@@ -116,5 +116,3 @@ This project demonstrates:
 
 ---
 
-👨‍💻 **Developed by:** [Amit Kumar Singh Kurmi](https://github.com/Amit905460)  
-📅 **Project Type:** Data Preprocessing / Machine Learning  
